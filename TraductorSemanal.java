@@ -8,9 +8,7 @@ public class TraductorSemanal {
     
         System.out.print("Día de la semana: ");
         dia = entrada.nextInt();
-        //hola
-        //hola
-        
+       
         switch (dia) {
             case 1:
                 System.out.print("Idioma: ");
