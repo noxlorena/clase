@@ -8,11 +8,13 @@ public class TraductorSemanal {
     
         System.out.print("Día de la semana: ");
         dia = entrada.nextInt();
-        System.out.print("Idioma: ");
-        idioma = sc.nextLine();
+        //hola
+        //hola
         
         switch (dia) {
             case 1:
+                System.out.print("Idioma: ");
+                idioma = sc.nextLine();
                 switch (idioma.toLowerCase()) {
                     case ("es"):
                         System.out.println("Lunes");
@@ -21,12 +23,14 @@ public class TraductorSemanal {
                         System.out.println("Monday"); 
                         break;
                     default:
-                        System.out.println("ERROR: El idioma " + idioma + " no es válido.");
-                        break;
+                        System.out.println("ERROR: El idioma " + idioma + " no es válido. Elige entre en o es.");
+                    break;
                     }
                 break;
 
             case 2:
+                System.out.print("Idioma: ");
+                idioma = sc.nextLine();
                 switch (idioma.toLowerCase()) {
                     case ("es"):
                         System.out.println("Martes");
@@ -35,12 +39,14 @@ public class TraductorSemanal {
                         System.out.println("Tuesday"); 
                         break;
                     default:
-                        System.out.println("ERROR: El idioma " + idioma + " no es válido.");
-                        break;
+                        System.out.println("ERROR: El idioma " + idioma + " no es válido. Elige entre en o es.");
+                    break;
                     }
                 break;
 
              case 3:
+                System.out.print("Idioma: ");
+                idioma = sc.nextLine();
                 switch (idioma.toLowerCase()) {
                     case ("es"):
                         System.out.println("Miércoles");
@@ -49,13 +55,15 @@ public class TraductorSemanal {
                         System.out.println("Wednesday"); 
                         break;
                     default:
-                        System.out.println("ERROR: El idioma " + idioma + " no es válido.");
-                        break;
+                        System.out.println("ERROR: El idioma " + idioma + " no es válido. Elige entre en o es.");
+                    break;
                     }
                 break;
 
      
              case 4:
+                System.out.print("Idioma: ");
+                idioma = sc.nextLine();
                 switch (idioma.toLowerCase()) {
                     case ("es"):
                         System.out.println("Jueves");
@@ -64,12 +72,14 @@ public class TraductorSemanal {
                         System.out.println("Thursday"); 
                         break;
                     default:
-                        System.out.println("ERROR: El idioma " + idioma + " no es válido.");
-                        break;
+                        System.out.println("ERROR: El idioma " + idioma + " no es válido. Elige entre en o es.");
+                    break;
                     }
                 break;
 
             case 5:
+                System.out.print("Idioma: ");
+                idioma = sc.nextLine();
                 switch (idioma.toLowerCase()) {
                     case ("es"):
                         System.out.println("Viernes");
@@ -78,12 +88,14 @@ public class TraductorSemanal {
                         System.out.println("Friday"); 
                         break;
                     default:
-                        System.out.println("ERROR: El idioma " + idioma + " no es válido.");
-                        break;
+                        System.out.println("ERROR: El idioma " + idioma + " no es válido. Elige entre en o es.");
+                    break;
                     }
                 break;
 
             case 6:
+                System.out.print("Idioma: ");
+                idioma = sc.nextLine();
                 switch (idioma.toLowerCase()) {
                     case ("es"):
                         System.out.println("Sábado");
@@ -92,12 +104,14 @@ public class TraductorSemanal {
                         System.out.println("Saturday"); 
                         break;
                     default:
-                        System.out.println("ERROR: El idioma " + idioma + " no es válido.");
-                        break;
+                        System.out.println("ERROR: El idioma " + idioma + " no es válido. Elige entre en o es.");
+                    break;
                     }
                 break;
 
             case 7:
+                System.out.print("Idioma: ");
+                idioma = sc.nextLine();
                 switch (idioma.toLowerCase()) {
                     case ("es"):
                         System.out.println("Domingo");
@@ -106,13 +120,13 @@ public class TraductorSemanal {
                         System.out.println("Sunday"); 
                         break;
                     default:
-                        System.out.println("ERROR: El idioma " + idioma + " no es válido.");
-                        break;
+                        System.out.println("ERROR: El idioma " + idioma + " no es válido. Elige entre en o es.");
+                    break;
                     }
                 break;
 
             default:
-                System.out.println("ERROR: El día " + dia + " no es válido.");
+                System.out.println("ERROR: El día " + dia + " no es válido. Elige un día entre 1 y 7.");
                 break;  
         }
             
