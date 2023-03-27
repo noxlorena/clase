@@ -1,4 +1,3 @@
-package pp;
 
 public class PrimeraFuncionLorena {
     public static void main(String[] args) {
